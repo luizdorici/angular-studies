@@ -2,3 +2,17 @@
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+/*classes CSS utilizadas de forma global na aplicação*/
+
+.purple {
+    color: rgb(72, 54, 136);
+}
+
+.red {
+    color: rgb(214, 34, 64);
+}
+
+.v-middle {
+    vertical-align: middle;
+}
