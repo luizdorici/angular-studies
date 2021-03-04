@@ -7,7 +7,7 @@ button {
     margin: 20px 15px 0px 0px;
 }
 
-.cancelButton {
+.excludeButton {
     color: rgb(255, 255, 255);
     background-color: rgb(196, 67, 67);
 }
