@@ -36,6 +36,7 @@ import { MatSortModule } from '@angular/material/sort';
 //mudar locale para pt/br na representacao de dados
 import localePt from '@angular/common/locales/pt';
 import { registerLocaleData } from '@angular/common';
+import { ProductUpdateComponent } from './components/product/product-update/product-update.component';
 
 registerLocaleData(localePt);
 
@@ -50,7 +51,8 @@ registerLocaleData(localePt);
     PurpleDirective,
     ForDirective,
     ProductCreateComponent,
-    ProductReadComponent
+    ProductReadComponent,
+    ProductUpdateComponent
   ],
   imports: [
     BrowserModule,
