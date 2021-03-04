@@ -28,6 +28,7 @@ import { MatInputModule } from '@angular/material/input'
 
 //imposrt para trabalhar com formularios
 import { FormsModule } from '@angular/forms';
+import { ProductReadComponent } from './components/product/product-read/product-read.component';
 
 @NgModule({
   declarations: [
@@ -39,7 +40,8 @@ import { FormsModule } from '@angular/forms';
     ProductCrudComponent,
     PurpleDirective,
     ForDirective,
-    ProductCreateComponent
+    ProductCreateComponent,
+    ProductReadComponent
   ],
   imports: [
     BrowserModule,
